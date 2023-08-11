@@ -1,4 +1,8 @@
-// Assignment code here
+//to combine a message with a variable use concatenation
+// given var a= "one" var b=2 var c=3 a + b + c= "one23"
+// if else
+//tenary operator
+
 
 
 // Get references to the #generate element
