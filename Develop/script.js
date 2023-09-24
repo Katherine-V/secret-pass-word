@@ -15,16 +15,16 @@ var symbol="   "
 
 
 // Write password to the #password input
-function writePassword() {
+//function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   var allChars= lowerCase + upperCase + number + symbol;
-  
+  passwordText.value = password; 
   
   //[Math.floor(Math.random())]
-
-  passwordText.value = password;
-  let password = ""
+ 
+  function writePassword() {
+  let password = "";
 
     password += upperCase[Math.floor(Math.random() * upperCase.length)];
     password += lowerCase[Math.floor(Math.random() * lowerCase.length)];
