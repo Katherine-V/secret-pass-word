@@ -7,8 +7,8 @@
 
 var generateBtn = document.querySelector("#generate");
 var length=[]
-var upperCase="ABCDEFGH"
-var lowerCase="abcdefgh"
+var upperCase="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+var lowerCase="abcdefghijklmnopqrstuvwxyz"
 var number="0123456789"
 var symbol="   "
 
