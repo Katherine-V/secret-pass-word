@@ -12,16 +12,26 @@
       <header>
         <h1>Password Generator</h1>
       </header>
-      <div class="choosing">
-        <label for="selections">These are four character type selections to choose among.<br>
+<!--      <div class="choosing"> -->
+<form method="post">
+  <fieldset>
+    <legend> Please select from among the four choices</legend>
+    <label><input type="radio" name="radio" value="uppercase" /> Uppercase </label>
+    <label><input type="radio" name="radio" value="lowercase" /> Lowercase </label>
+    <label><input type="radio" name="radio" value="Numbers" /> Numbers </label>
+    <label><input type="radio" name="radio" value="Symbols" /> </Symbols </label>>
+  </fieldset>
+</form>
+        
+<!--        <label for="selections">These are four character type selections to choose among.<br>
            Select one, two, three, or all to be randomly combined.</label>
-        <select id="selections">
+          <select id="selections">
           <option>lowercase letters</option>
           <option>UPPPERCASE letters</option>
           <option>numbers</option>
           <option>$y#b.|$</option>
         </select>
-      </div>
+      </div> -->
 
       <div class="card">
         <div class="card-header">
