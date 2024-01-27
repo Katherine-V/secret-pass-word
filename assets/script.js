@@ -9,7 +9,7 @@ var length=[]
 var upperCase="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 var lowerCase="abcdefghijklmnopqrstuvwxyz"
 var number="0123456789"
-var symbol="   "
+var symbol="`~!@#$%^&*()-_=+\?"
 
 //using true or falsy to include in the custom array created by user when selecting 
 //what to include in password
